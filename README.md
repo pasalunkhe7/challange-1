@@ -22,16 +22,16 @@ Below is the architecture for it and drawaing carried out in https://app.diagram
 
 **Infra created **
 
--VPC
--Internet gateway
--route table
--5 Subnets (2 public and 1 private and 2 db subnets in a 2 AZ's)
--Security groups
--EC-2 instances (2 for webserver and 1 for app server
--ELB (application load  Load balancer)
--Target group
--RDS instance
--Note:I have not created NAT instace due to time limitation to access private subnet which is also required.
+>VPC
+>Internet gateway
+>route table
+>5 Subnets (2 public and 1 private and 2 db subnets in a 2 AZ's)
+>Security groups
+>EC-2 instances (2 for webserver and 1 for app server
+>ELB (application load  Load balancer)
+>Target group
+>RDS instance
+>Note:I have not created NAT instace due to time limitation to access private subnet which is also required.
 
 **Instructions**:
 
@@ -39,8 +39,8 @@ Below is the architecture for it and drawaing carried out in https://app.diagram
 >and load all files and use below commands to launch infra.
 
 
--Run terraform init .
--Run terraform fmt               ...... This ensures your formatting is correct.
--terraform validate              ...........validate to ensure there are no syntax errors.
--Run terraform plan                  ............plan to see what resources will be created.
--Run terraform apply                  ............apply to creat a resurces
+>Run terraform init .
+>Run terraform fmt               ...... This ensures your formatting is correct.
+>terraform validate              ...........validate to ensure there are no syntax errors.
+>Run terraform plan                  ............plan to see what resources will be created.
+>Run terraform apply                  ............apply to creat a resurces
