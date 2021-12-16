@@ -22,8 +22,8 @@ Below is the architecture for it and drawaing carried out in https://app.diagram
 
 **Infra created **
 
->VPC
->Internet gateway
+* .VPC
+* .Internet gateway
 >route table
 >5 Subnets (2 public and 1 private and 2 db subnets in a 2 AZ's)
 >Security groups
@@ -33,9 +33,9 @@ Below is the architecture for it and drawaing carried out in https://app.diagram
 >RDS instance
 >Note:I have not created NAT instace due to time limitation to access private subnet which is also required.
 
-**Instructions**:
+**Instructions**
 
->Configure CLI and also creat your profile and relace in the code for security reasons.
+* . Configure CLI and also creat your profile and relace in the code for security reasons.
 >and load all files and use below commands to launch infra.
 
 
